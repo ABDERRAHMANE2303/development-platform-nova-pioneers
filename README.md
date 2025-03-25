@@ -3,7 +3,7 @@
 Our project is a kid-friendly web-based learning platform designed to educate young learners about space and exploration. The platform will use NASA APIs to provide real-time space-related content in an age-appropriate manner, track children's progress through a fun XP-based system, and offer an interactive and engaging learning experience with colorful visuals and simplified content.
 
 ## Technologies Used
-### Frontend:
+### Frontend: 
 - **React.js**: For building the user interface.
 - **Tailwind CSS**: For styling and responsiveness.
 - **Framer Motion**: For smooth animations and interactive elements that appeal to kids.
