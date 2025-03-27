@@ -17,15 +17,15 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
   backend:
-    build: ./backend
+    build: .
     container_name: springboot_backend
     restart: always
     depends_on:
       - db
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/mydatabase
-      SPRING_DATASOURCE_USERNAME: myuser
-      SPRING_DATASOURCE_PASSWORD: mypassword
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/novadb
+      SPRING_DATASOURCE_USERNAME: pioneer
+      SPRING_DATASOURCE_PASSWORD: dbpassword_v1
     ports:
       - "8080:8080"
 
